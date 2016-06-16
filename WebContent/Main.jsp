@@ -1,12 +1,41 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>HARU</title>
+
+
 </head>
+
 <body>
 
+<!--**********************************-->
+<!--ヘッダーここから -->
+<div><jsp:include page="Header.jsp"></jsp:include></div>
+<!-- ヘッダーここまで-->
+
+<!-- メインここから-->
+<div id="main">
+<div class="category">
+
+
+
+
+
+</div>
+
+</div>
+
+<!-- メインここまで-->
+
+
+<!-- フッターここから-->
+<div ><jsp:include page="Footer.jsp" /></div>
+<!-- フッターここまで-->
+
+
 </body>
+
 </html>
